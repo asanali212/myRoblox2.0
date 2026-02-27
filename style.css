@@ -1,0 +1,685 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff0000, #111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #1c1c1c;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.6);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background: #2b2b2b;
+    color: white;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px red;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: red;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: darkred;
+    transform: scale(1.05);
+}body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    overflow: hidden;
+}
+
+.bg-animation {
+    position: fixed;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, red, black, darkred);
+    animation: moveBg 8s linear infinite;
+    z-index: -1;
+}
+
+@keyframes moveBg {
+    0% { transform: translate(-25%, -25%) rotate(0deg); }
+    100% { transform: translate(-25%, -25%) rotate(360deg); }
+}
+
+.container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+    width: 320px;
+    padding: 40px;
+    background: #1c1c1c;
+    border-radius: 15px;
+    box-shadow: 0 0 30px red;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    background: #2b2b2b;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 15px red;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: darkred;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px red;
+}
+
+.notice {
+    color: gray;
+    font-size: 12px;
+    margin-top: 15px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "HCo Gotham SSm", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    background-color: #F2F4F5; /* Светло-серый фон как на сайте */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #454545;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #B8B8B8;
+    border-radius: 4px;
+    background-color: #F2F4F5;
+    box-sizing: border-box; /* Чтобы паддинги не раздували ширину */
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #00A2FF; /* Голубая обводка при клике */
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00A2FF; /* Фирменный синий Roblox */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0088D1; /* Темнее при наведении */
+}
+
+.footer-text {
+    font-size: 13px;
+    color: #666;
+    margin-top: 15px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f1115;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #1c1f26;
+    padding: 40px;
+    border-radius: 12px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0,0,0,0.6);
+    animation: fadeIn 1s ease;
+}
+
+.logo {
+    color: white;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background: #2a2f38;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    background: #343a46;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #00b06f;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00d986;
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+  body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff; /* белый фон как у Roblox */
+      color: #111111;
+    }
+
+    /* Верхняя панель */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      background-color: #ffffff;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #111111;
+    }
+
+    header nav a {
+      text-decoration: none;
+      color: #111111;
+      margin-left: 25px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    header nav a:hover {
+      color: #ff0000; /* эффект при наведении как в Roblox */
+    }
+
+    /* Основной контент */
+    .container {
+      padding: 50px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: #f9f9f9;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .button {
+      background-color: #ff0000;
+      color: #ffffff;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #cc0000;
+    }
+     body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #111111;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      background-color: #ffffff;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    header nav a {
+      text-decoration: none;
+      color: #111111;
+      margin-left: 25px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    header nav a:hover {
+      color: #ff0000;
+    }
+
+    .container {
+      padding: 50px;
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+    }
+
+    .card p {
+      padding: 0 10px 10px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .button {
+      background-color: #ff0000;
+      color: #fff;
+      padding: 10px 20px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #cc0000;
+    }
+    /* Общие настройки страницы */
+body {
+    background-color: #F2F4F5; /* Светло-серый фон как в Roblox */
+    font-family: "HCo Gotham SSm", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Основной контейнер профиля */
+.profile-container {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 970px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Шапка профиля (Аватар + Имя) */
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    background-color: #E3E3E3;
+    border-radius: 50%; /* Круглый аватар */
+    overflow: hidden;
+}
+
+.user-info h1 {
+    font-size: 32px;
+    margin: 0;
+    color: #393B3D;
+}
+
+.user-info p {
+    color: #BDBCBC;
+    margin: 5px 0;
+}
+
+/* Кнопка Add Connection (синяя) */
+.btn-primary {
+    background-color: #0067FF;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Сетка предметов (Currently Wearing) */
+.wearing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.item-card {
+    background: #FFFFFF;
+    border: 1px solid #D8DADC;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: left;
+}
+
+.item-card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.item-name {
+    font-size: 12px;
+    font-weight: bold;
+    color: #393B3D;
+    margin-top: 5px;
+    display: block;
+}
+
+.item-price {
+    font-size: 11px;
+    color: #656667;
+}
+/* Кнопка Sign Up в стиле Roblox */
+.signup-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.signup-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Сетка для предметов (как на скриншоте) */
+.wearing-grid {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.item-slot {
+    width: 110px;
+    height: 110px;
+    background-color: #ffffff;
+    border: 1px solid #d8dadc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.item-slot img {
+    max-width: 80%;
+    max-height: 70%;
+}
+
+.item-label {
+    font-size: 10px;
+    color: #656667;
+    margin-top: 4px;
+    text-align: center;
+}
+
+/* Скрытие формы по умолчанию */
+#registration-overlay {
+    display: none; /* Форма скрыта */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+/* Шапка сайта */
+.navbar {
+    background-color: #232527;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+/* Кнопка Sign Up вверху */
+.signup-top-btn {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Скрытое окно регистрации */
+.modal-overlay {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Затемнение фона */
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+/* Контейнер самой формы внутри окна */
+.modal-content {
+    background: #393b3d;
+    padding: 30px;
+    border-radius: 8px;
+    position: relative;
+    width: 320px;
+}
+
+/* Кнопка закрытия (крестик) */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+/* Верхняя панель управления */
+.navbar {
+    background-color: #232527; /* Темный цвет Roblox */
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    position: absolute; /* Чтобы не создавала пустых полос */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+/* Кнопка Sign Up */
+.signup-top-btn {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.signup-top-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Окно регистрации (модалка) */
+.modal-overlay {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85); /* Затемнение всего экрана */
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
